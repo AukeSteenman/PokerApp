@@ -93,9 +93,12 @@ To host your own instance of this application follow these steps to setup this p
 
 1. Pull this repository via `git@gitlab.fdmci.hva.nl:project-se/2122/ivse2/IVSE2-MUCKERS/pokerapp.git` and navigate to the directory `/PokerApp`
 2. Execute `node -v` to check if you have [Node](https://nodejs.org/en/) installed
-3. Execute `npm install yarn` to use [Yarn](https://yarnpkg.com/) package manager
-4. In the root folder of the project run `yarn install` to install all project dependancies
-5. Execute `yarn dev` to start the server in development mode
+4. In this project we use MongoDB as DB, make sure you have a db called `local` and a collection called `users`
+4. Execute `npm install yarn` to use [Yarn](https://yarnpkg.com/) package manager
+5. In the root folder of the project run `yarn install` to install all project dependancies
+6. Execute `yarn dev` to start the server in development mode
+7. In the SocketServer folder `lib\backend\socketServer` run `yarn install`
+8. Execute `yarn start` to start the socket server
 
 ## More resources
 
