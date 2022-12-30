@@ -1,0 +1,16 @@
+.vscode
+
+.DS_Store
+
+node_modules
+
+/build
+/.svelte-kit
+/package
+/coverage
+static/avatars/uploads
+lib/backend/socketServer/compiled/
+# Secrets
+.env
+.env.*
+!.env.example
